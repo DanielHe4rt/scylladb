@@ -3,7 +3,7 @@ Enable Authentication
 
 .. scylladb_include_flag:: upgrade-note-authentication.rst
 
-Authentication is the process where login accounts and their passwords are verified, and the user is allowed access to the database. Authentication is done internally within ScyllaDB and is not done with a third party. Users and passwords are created with roles using a ``CREATE ROLE`` statement. Refer to :doc:`Grant Authorization CQL Reference </operating-scylla/security/authorization>` for details.  
+Authentication is the process where login accounts and their passwords are verified, and the user is allowed access to the database. Authentication is done internally within ScyllaDB and is not done with a third party. Users and passwords are created with roles using a ``CREATE ROLE`` statement. Refer to :doc:`Grant Authorization CQL Reference </operating-scylla/security/authorization/>` for details.  
 
 The procedure described below enables Authentication on the ScyllaDB servers. It is intended to be used when you do **not** have applications running with ScyllaDB/Cassandra drivers.
 
